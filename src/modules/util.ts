@@ -1,6 +1,6 @@
 import { Config } from "config";
 
-export function CameraReactionForce(delta: Vector3): Vector3
+export function GetCameraReactionForce(delta: Vector3): Vector3
 {
 	const x = math.abs(delta.X) > 0.0001 ? delta.X : 0;
 	const y = math.abs(delta.Y) > 0.0001 ? delta.Y : 0;

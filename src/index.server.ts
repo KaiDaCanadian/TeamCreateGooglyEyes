@@ -5,7 +5,7 @@ import { CameraController } from "controllers/CameraController";
 import { EyePhysicsController } from "controllers/EyePhysicsController";
 import { EyePhysicsConfig } from "controllers/EyePhysicsController/types";
 import { PluginToolbarController } from "controllers/PluginToolbarController";
-import { CameraReactionForce as GetCameraReactionForce } from "modules/util";
+import { GetCameraReactionForce } from "modules/util";
 import { AssetsFolder } from "types";
 
 const CAMERA_CONTROLLER = new CameraController(Workspace.CurrentCamera);
