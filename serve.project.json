@@ -1,0 +1,19 @@
+{
+	"name": "roblox-ts-plugin-serve",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"TeamCreateGooglyEyes": {
+				"$className": "Folder",
+				"src": {
+					"$path": "./default.project.json"
+				}
+			}
+		}
+	}
+}
